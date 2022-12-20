@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Message From The Person Who's Having A Crush On You</title>
+	</head>
+	<style>
+	.center {
+		text-align: center;
+		border-radius: 50px 0 50px 0;
+		border: 2px solid black;
+		margin: auto;
+		width: 50%;
+		padding: 20px;
+		background: #87CEEB
+	}
+	
+	button{
+	height: 100px;
+	text-align: center;
+	border-radius: 20px 0 20px 0;
+	border: 2px solid black;
+	margin: 0;
+	width: 200px;
+	padding: 20px;
+	background: #90EE90;
+    display: block;
+    position: absolute;
+	
+}
+	</style>
+		<body style="background-image: -webkit-linear-gradient(left, skyblue, lightgreen)">
+				<div style="box-shadow:10px 10px" class="center">
+					<h1 style="font-family:courier;">Pwedeng Ako Nalang?</h1>
+					<h3 style="font-family:courier;">pls say yessss :DD love you <33 </h3>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+					<button style="box-shadow:5px 5px; font-family:courier; font-weight:700; font-size: 200%; left: 60%;">No</button>
+					<button onclick="showDiv()" style="box-shadow:5px 5px; font-family:courier; font-weight:700; font-size: 200%; left: 20%;">Yes</button>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>	
+					<div class="center" style="display:none; box-shadow:10px 10px" id="yesDiv">
+						<h3>TRUE NA BA YAN???? OMGGG LOVE NA TALAGA KITA! MY LIFE IS COMPLETE NA, LOVE YOU SO MUCH <33 </h3>
+					</div>
+						<!--WOW CONGRATS FOR SEEING THIS!! Maybe it took you a long time to see this but at least you saw it now. I know, I know this is a very unusual way of saying things but this is me your talking to. By now I'm sure that you know that I like you. I insist you read through this whole thing. I am sure you're aware about my feelings for you but I just wanted to say this since I really didn't get to confess properly. You are the person I've come to love yet it took me a long time to realize that. You out of all the people in class or at least in this world is the one I chose to have a crush on. Though I am also unclear on why, but to me you're the greatest. You were always so kind to me. I had always thought to myself whether or not I would fall in love with someone who was actually kind and is as great as you. Whenever I see you or talk to you, it makes me smile all the time. You are one of the reasons I go to school everyday. Thinking of you just make me fall in love more and more as every day goes by. I know that these sound exaggerated but it's all true. Because I would never lie to you, I mean what's there to lie about in a confession letter. My feelings for you is something I cannot explain in simple words. The reason I fell for you is also something I can't explain. I hope you understand that I love you truly with all of my heart. I just don't know if you al- hmmm wag na ituloy yan. You are the only person I wait to chat me. The only person I would love to talk to for hours on end. The only person that can make me happy just by saying hi or hello. If ever the time comes that you'll like someone. Then congratulations STEM! Just don't block me ah. I know you're not that kind of person but it's just in case. Just remember that I will always be here for you no matter what happens. You can talk to me whenever you want, you can ask me for help. Thank you for talking to me always. All of these words that I am currently typing are words that I hope you'll cherish. You will always be the one that my heart beats for. You will always be number one in my heart. Have a Merry Christmas & Happy New Year!  I hope to see you next year though. I Love You Kelly <33-->
+							<script>
+								var b = document.querySelector("button");
+									b.addEventListener("click",change);
+								function change() {
+									var i = Math.floor(Math.random()*500)+1;
+									var j = Math.floor(Math.random()*500)+1;
+										b.style.left = i+"px";
+										b.style.top = j+"px";
+									}
+								function showDiv() {
+										document.getElementById('yesDiv').style.display = "block";
+									}
+							</script>
+		</body>
+</html>
